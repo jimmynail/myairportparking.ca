@@ -1,0 +1,53 @@
+/* -------------------TW custom styles -----------------*/
+/* add new styles here.  If modifying existing styles, copy the partent */
+/* theme style sheet into the sub theme, add the stylesheet to the .info file
+/* and modify from the subtheme css
+
+
+/* Used on homepage jump menu */
+
+.airport-jump-menu {
+  text-align: center;
+  font-size: 1.3em;
+}
+
+select#edit-jump {
+  font-weight: bold;
+  text-align: center;
+  font-size: 1em;
+  color: #FF6600;
+}
+
+/* end of used on homepage jump menu */
+
+/* footer jump menu */
+.airport-jump-menu-footer {
+    text-align: center;
+}
+
+/* used for add this block*/
+#block-block-7 {
+    text-align: right;
+
+}
+
+
+
+
+
+/* ----Example of how to float images in this theme------
+from http://drupal.org/node/1114278
+
+Float images to the left
+.field-type-image {
+  float: left;
+  margin-right: 10px;
+  margin-top: .4em;
+}
+Float images to the right
+.field-type-image {
+  float: right;
+  margin-left: 10px;
+  margin-top: .4em;
+}
+*/
