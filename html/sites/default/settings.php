@@ -187,6 +187,7 @@ $databases = array (
       'username' => '1clk_dp_ORpVXgV',
       'password' => 'farkfucker45',
       'host' => 'internal-db.s123779.gridserver.com',
+      //'host' => 'localhost',
       'port' => '',
       'driver' => 'mysql',
       'prefix' => 'drupal_',
