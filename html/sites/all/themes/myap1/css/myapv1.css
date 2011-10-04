@@ -32,8 +32,23 @@ select#edit-jump {
 }
 
 
+/* used to style the "reserve now button" on lot pages.  the '180' is the specific form id'' */
+/*#webform-client-form-180 input[type="submit"] {
+display:none;
+}*/
 
 
+#webform-client-form-180 input[type="submit"] {
+  width: 206px;
+  height: 48px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent url(/sites/default/files/reserve-now.png) no-repeat center top;
+  text-indent: -1000em;
+  cursor: pointer; /* hand-shaped cursor */
+  cursor: hand; /* for IE 5.x */
+}
 
 /* ----Example of how to float images in this theme------
 from http://drupal.org/node/1114278
